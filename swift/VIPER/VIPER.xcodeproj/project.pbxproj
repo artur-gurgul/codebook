@@ -16,6 +16,10 @@
 		75CFAF4F2985C09B00620B63 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFAF4E2985C09B00620B63 /* Presenter.swift */; };
 		75CFAF512985C0A200620B63 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFAF502985C0A200620B63 /* Entity.swift */; };
 		75CFAF532985C0A800620B63 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFAF522985C0A800620B63 /* Router.swift */; };
+		75CFAF562985DE7600620B63 /* UsersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFAF552985DE7600620B63 /* UsersRepository.swift */; };
+		75CFAF582985E09700620B63 /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFAF572985E09700620B63 /* Injected.swift */; };
+		75CFAF5A2985E0CC00620B63 /* InjectedKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFAF592985E0CC00620B63 /* InjectedKey.swift */; };
+		75CFAF5C2985E1D100620B63 /* InjectedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFAF5B2985E1D100620B63 /* InjectedValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		75CFAF4E2985C09B00620B63 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		75CFAF502985C0A200620B63 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		75CFAF522985C0A800620B63 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		75CFAF552985DE7600620B63 /* UsersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRepository.swift; sourceTree = "<group>"; };
+		75CFAF572985E09700620B63 /* Injected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
+		75CFAF592985E0CC00620B63 /* InjectedKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedKey.swift; sourceTree = "<group>"; };
+		75CFAF5B2985E1D100620B63 /* InjectedValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,7 @@
 		75CFAF492985C07200620B63 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				75CFAF542985DE1800620B63 /* DI */,
 				75CFAF4A2985C08000620B63 /* View.swift */,
 				75CFAF4C2985C09200620B63 /* Interactor.swift */,
 				75CFAF4E2985C09B00620B63 /* Presenter.swift */,
@@ -82,6 +91,17 @@
 				75CFAF522985C0A800620B63 /* Router.swift */,
 			);
 			path = VIPER;
+			sourceTree = "<group>";
+		};
+		75CFAF542985DE1800620B63 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				75CFAF552985DE7600620B63 /* UsersRepository.swift */,
+				75CFAF572985E09700620B63 /* Injected.swift */,
+				75CFAF592985E0CC00620B63 /* InjectedKey.swift */,
+				75CFAF5B2985E1D100620B63 /* InjectedValues.swift */,
+			);
+			path = DI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75CFAF532985C0A800620B63 /* Router.swift in Sources */,
+				75CFAF5A2985E0CC00620B63 /* InjectedKey.swift in Sources */,
 				75CFAF4F2985C09B00620B63 /* Presenter.swift in Sources */,
+				75CFAF582985E09700620B63 /* Injected.swift in Sources */,
+				75CFAF562985DE7600620B63 /* UsersRepository.swift in Sources */,
 				75CFAF4B2985C08000620B63 /* View.swift in Sources */,
+				75CFAF5C2985E1D100620B63 /* InjectedValues.swift in Sources */,
 				75CFAF512985C0A200620B63 /* Entity.swift in Sources */,
 				75CFAF4D2985C09200620B63 /* Interactor.swift in Sources */,
 				75CFAF362985BCF000620B63 /* AppDelegate.swift in Sources */,
